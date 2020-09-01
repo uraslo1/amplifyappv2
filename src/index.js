@@ -16,6 +16,4 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-import Amplify from 'aws-amplify';
-import config from './aws-exports';
-Amplify.configure(config);
+
